@@ -1,0 +1,48 @@
+name: movie_info_app_flutter
+description: Flutter app for displaying movies using the themoviedb api.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.0
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.2
+  flutter_bloc: ^7.0.1
+  cached_network_image: ^3.0.0
+  like_button: ^2.0.2
+  url_launcher: ^6.0.9
+  animations: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  get_it: 7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: ^1.2.0
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets\font\sf_pro_regular.ttf
+        - asset: assets\font\sf_pro_medium.ttf
+          weight: 500
+        - asset: assets\font\sf_pro_semibold.ttf
+          weight: 600
+        - asset: assets\font\sf_pro_bold.ttf
+          weight: 700
