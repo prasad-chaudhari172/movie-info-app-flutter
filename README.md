@@ -1,17 +1,10 @@
-# movie_info_app_flutter
+# movie-info-app-flutter
 
-Flutter app for displaying movies using the themoviedb api.
+The Movie Info App enriches your movie-watching experience by providing comprehensive details, reviews, and ratings sourced directly from the **TMDB API**, offering users rich information and insights about their favorite movies.
 
-## Libraries used in this project
-
-* dio
-* sqflite
-* flutter_bloc
-* animations
-* get_it
 
 ## Screenshots
 
-Home Screen|Search Screen|Details Screen
+Home Screen|Search Screen|Movie Screen
 :---------:|:-----------:|:------------:
-![Home Screen](https://github.com/suhrobcoder/movie_info_app_flutter/blob/master/screenshots/home.jpg) | ![Search Screen](https://github.com/suhrobcoder/movie_info_app_flutter/blob/master/screenshots/search.jpg) | ![Details Screen](https://github.com/suhrobcoder/movie_info_app_flutter/blob/master/screenshots/details.jpg)
+![Home Screen](https://github.com/prasad-chaudhari172/movie-info-app-flutter/blob/main/screenshots/home.jpg) | ![Search Screen](https://github.com/prasad-chaudhari172/movie-info-app-flutter/blob/main/screenshots/search.jpg) | ![Details Screen](https://github.com/prasad-chaudhari172/movie-info-app-flutter/blob/main/screenshots/details.jpg)
